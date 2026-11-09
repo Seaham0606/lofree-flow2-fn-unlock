@@ -45,3 +45,10 @@ tools/flash.sh firmware/patched/stock_code.bin
 ```
 
 After flashing, set the far-left key to `Left Ctrl` and the second key to `MO(1)` in VIA.
+
+## Status
+
+Flashed 2026-11-08 on a PID 0x0027 board: write verified by readback, boots normally, keymap kept across the flash.
+VIA now saves Left Ctrl on the far-left key (row 5, col 0) and `MO(1)` on the second key; before the patch the first write was silently dropped.
+
+`tools/via.py` reads and writes single keys over raw HID (`get`, `set`, `dump`) without opening VIA.
