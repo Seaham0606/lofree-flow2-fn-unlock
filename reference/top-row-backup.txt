@@ -1,0 +1,4 @@
+Flow2 top row (row 0, cols 1-12) before swap on 2026-11-08, VIA keycodes (hex):
+Layer 0 (was default): 00be 00bd 7e0b 7e0c 7803 7804 00ac 00ae 00ab 00a8 00aa 00a9
+Layer 1 (was Fn):      003a 003b 003c 003d 003e 003f 0040 0041 0042 0043 0044 0045  (= F1..F12)
+After swap: layer 0 = F1..F12, layer 1 = media keys above.
